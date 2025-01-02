@@ -19,8 +19,8 @@ export const siteConfig: SiteConfig = {
     src: 'assets/images/banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
-      enable: false,         // Display the credit text of the banner image
-      text: 'AI',              // Credit text to be displayed
+      enable: true,         // Display the credit text of the banner image
+      text: 'Google',              // Credit text to be displayed
     }
   },
   favicon: [    // Leave this array empty to use the default favicon
